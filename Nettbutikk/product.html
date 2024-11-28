@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3a64e9091e.js" crossorigin="anonymous"></script> <!-- *(Font Awesome 5 Icons) Code from - <a href="https://www.w3schools.com/icons/"></a> -->
     <link rel="stylesheet" href="css/style.css"> 
-    <title>Nettbutikk | Forside</title>
+    <title>Nettbutikk | Produkter</title>
 </head>
 <body>
     <header id="global-header">
@@ -16,10 +16,10 @@
         <nav>
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="index.html#beste-produkter">Produkter</a></li>
+                <li><a href="index.html#beste-produkter">Produkter</a></li> <!-- *Hvordan linke til forkjellige steder i dokumentet - <a href="https://stackoverflow.com/questions/15481911/linking-to-a-specific-part-of-a-web-page#:~:text=Just%20append%20a%20%23%20followed%20by%20the%20ID,HTML%3A%20You%20could%20use%20the%20link%20%3Ca%20href%3D%22http%3A%2F%2Furl.to.site%2Findex.html%23target%22%3ELink%3C%2Fa%3E"></a> -->
                 <li><a href="index.html" id="logo"><h1>Logo</h1></a></li>
                 <li><a href="index.html#beste-kategorier">Kategorier</a></li>
-                <li><a href="index.html#kontakter">Kontakt oss</a></li>
+                <li><a href="product.html#pkontakter">Kontakt oss</a></li>
                 <li><i class="fa-regular fa-user"></i></li>
                 <li><i class="fa-regular fa-heart"></i></li>
                 <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
@@ -27,15 +27,66 @@
         </nav>
     </header>
     <main>
-        
+        <nav>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="index.html#bpkat">Kategori</a></li>
+                <li><a href="product.html" id="bold">Duck Plush</a></li>
+            </ul>
+        </nav>
+        <picture>
+            <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+            <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+        </picture>
+        <picture>
+            <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+            <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition" class="small">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+        </picture>
+        <picture>
+            <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+            <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition" class="small">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+        </picture>
+        <picture>
+            <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+            <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition" class="small">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+        </picture>
+        <section class="size">
+            <h3>Kawaii Duck Plush</h3>
+            <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/" target="_blank">Kawaii Therapy</a>
+            <p>275,49 kr inkl. mva.</p>
+            <p>Farge: Gul</p>
+        </section>
+        <aside class="side">
+            <h3>Lignende produkter</h3>
+            <article>
+                <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                <h3>Kawaii Duck Plush</h3>
+                <p>275,49 kr</p>
+            </article>
+            <article>
+                <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                <h3>Kawaii Duck Plush</h3>
+                <p>275,49 kr</p>
+            </article>
+            <article>
+                <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                <h3>Kawaii Duck Plush</h3>
+                <p>275,49 kr</p>
+            </article>
+            <article>
+                <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                <h3>Kawaii Duck Plush</h3>
+                <p>275,49 kr</p>
+            </article>
+        </aside>
     </main>
     <footer>
         <section>
             <h3><a href="index.html" id="footer-logo">Logo</a></h3>
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
         </section>
-        <section id="kontakter">
-            <h4 id="kon">KONTAKT</h4>
+        <section id="pkontakter">
+            <h4 id="pkon">KONTAKT</h4>
             <ul>
                 <li><i class="fa-solid fa-location-dot"></i> Adresse: B R A veien 4, 1757 Halden</li>
                 <li><i class="fa-solid fa-phone"></i> Telefonnummer: 69 60 80 00</li>
@@ -48,7 +99,7 @@
             <ul>
                 <li><a href="index.html#prod">Produkter</a></li>
                 <li><a href="index.html#kat">Kategorier</a></li>
-                <li><a href="index.html#kon">Kontakt oss</a></li>
+                <li><a href="product.html#pkon">Kontakt oss</a></li>
                 <li><a href="#">Tilgjengelighetserklæringen</a></li>
             </ul>
         </section>
