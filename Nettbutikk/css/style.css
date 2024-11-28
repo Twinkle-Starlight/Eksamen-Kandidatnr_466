@@ -1,4 +1,4 @@
-
+/*INDEX*/
 * {
     text-decoration: none;
     list-style: none;
@@ -40,6 +40,28 @@ button {
 
 #global-header ul li {
     margin-top: 1rem;
+}
+
+.btn{
+    padding: 0.5rem; 
+    border: 1px solid #000000; 
+    color: #000000; 
+    text-decoration: none; 
+    font-size: smaller;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#pakke{
+    background-color: #c5c3c3; 
+    padding: 2rem; 
+    max-height: 250px;
+    text-align: right;
+}
+
+#pakke p{
+    font-size: medium;
 }
 
 a {
@@ -137,24 +159,58 @@ footer li {
     font-size: medium;
 }
 
-.btn{
-    padding: 0.5rem; 
-    border: 1px solid #000000; 
-    color: #000000; 
+/*PRODUCT*/
+.breadcrumb {
+    display: flex; 
+    list-style: none; 
     text-decoration: none; 
-    font-size: smaller;
-    font-weight: bold;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-#pakke{
-    background-color: #c5c3c3; 
-    padding: 2rem; 
-    max-height: 250px;
-    text-align: right;
-}
-
-#pakke p{
+    padding-left: 0%;
+    color: #000; 
     font-size: medium;
+    margin-top: 2rem;
 }
+
+.breadcrumb li+li:before { /*Code from - <a href="https://www.w3schools.com/howto/howto_css_breadcrumbs.asp"></a>*/
+    padding: 10px;
+    color: black;
+    content: ">"; 
+    font-weight: bolder;
+  }
+
+#bold {
+    font-weight: bolder;
+}
+
+.small {
+    display: inline;
+    max-width: 304px;
+    max-height: 97px;
+}
+
+.size h3 {
+    padding: 0rem;
+}
+
+.size p {
+    font-size: small;
+}
+
+.side h3 {
+    padding-left: 27px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.side p {
+    font-size: small;
+    padding-left: 27px;
+    display: inline;
+}
+
+.side img{
+    max-width: 250px; 
+    padding: 27px;
+    padding-bottom: 0px;
+}
+
+/*CHECKOUT*/
