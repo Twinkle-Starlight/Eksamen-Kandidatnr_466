@@ -3,60 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/3a64e9091e.js" crossorigin="anonymous"></script> <!-- *Font Awesome 5 Icons - https://www.w3schools.com/icons/ -->
+    <script src="https://kit.fontawesome.com/3a64e9091e.js" crossorigin="anonymous"></script> <!-- *(Font Awesome 5 Icons) Code from - <a href="https://www.w3schools.com/icons/"></a> -->
     <link rel="stylesheet" href="css/style.css"> 
     <title>Nettbutikk | Forside</title>
 </head>
 <body>
-    <header>
+    <header id="global-header">
+        <form>
+            <label>
+                <input type="search" placeholder="søk her" id="search">
+                <button type="submit"><i class="fa fa-search"></i></button> <!-- *Code from - <a href="https://www.w3schools.com/howto/howto_css_search_button.asp"></a> -->
+            </label>
+        </form>
         <nav>
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="#">Produkter</a></li>
-                <li><a href="index.html" id="logo">Logo</a></li>
-                <li><a href="#">Kategorier</a></li>
-                <li><a href="#">Kontakt oss</a></li>
+                <li><a href="index.html#beste-produkter">Produkter</a></li>
+                <h1><li><a href="index.html" id="logo">Logo</a></li></h1>
+                <li><a href="index.html#beste-kategorier">Kategorier</a></li>
+                <li><a href="index.html#kontakter">Kontakt oss</a></li>
                 <li><i class="fa-regular fa-user"></i></li>
                 <li><i class="fa-regular fa-heart"></i></li>
                 <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
-            <form>
-                <input type="search" placeholder="søk her" id="search">
-                <input typer="submit" class="fa-solid fa-magnifying-glass">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </form>
         </nav>
     </header>
     <main>
         <section>
-
+            <article id="pakke">
+                <h3>Curabitur ac magna eget eros rutrum fermentum in eget velit.</h3>
+                <p>Pellentesque sollicitudin enim non sapien accumsan, at volutpat nulla tristique</p>
+                <a class="btn" href="#">FÅ EN PRØVE PAKKE I DAG</a>
+            </article>
         </section>
-
+        <section id="beste-produkter">
+            <h3 id="prod">Våre mest populære produkter</h3>
+            <p>Oppdag det beste av det beste</p>
+            <article>
+                <a href="#"><h4>New Product</h4></a>
+            </article>
+            <article>
+                <a href="#"><h4>Special Price</h4></a>
+            </article>
+            <article>
+                <a href="#"><h4>Best Sellers</h4></a>
+            </article>
+            <article class="product-card">
+                <picture>
+                    <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+                    <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                </picture>
+                <a href="product.html"><h3>Kawaii Duck Plush</h3></a>
+                <p>275,49 kr</p>
+            </article>
+            <article class="product-card">
+                <picture>
+                    <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+                    <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                </picture>
+                <a href="product.html"><h3>Kawaii Duck Plush</h3></a>
+                <p>275,49 kr</p>
+            </article>
+            <article class="product-card">
+                <picture>
+                    <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+                    <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                </picture>
+                <a href="product.html"><h3>Kawaii Duck Plush</h3></a>
+                <p>275,49 kr</p>
+            </article>
+            <article class="product-card">
+                <picture>
+                    <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+                    <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                </picture>
+                <a href="product.html"><h3>Kawaii Duck Plush</h3></a>
+                <p>275,49 kr</p>
+            </article>
+            <article class="product-card">
+                <picture>
+                    <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+                    <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                </picture>
+                <a href="product.html"><h3>Kawaii Duck Plush</h3></a>
+                <p>275,49 kr</p>
+            </article>
+            <article class="product-card">
+                <picture>
+                    <source media="(max-width:300px)" srcset="img/Gul-And-Plysj.jpg">
+                    <img src="img/Gul-And-Plysj.jpg" alt="Kawaii Duck Plush (40cm) Limited Edition">  <!-- *img from - <a href="https://kawaiitherapy.com/shop/kawaii-duck-plush-40cm-limited-edition/"></a> --> 
+                </picture>
+                <a href="product.html"><h3>Kawaii Duck Plush</h3></a>
+                <p>275,49 kr</p>
+            </article>
+        </section>
+        <section id="beste-kategorier">
+            <h3 id="kat">Våre mest populære kategorier</h3>
+            <p>Oppdag det beste av det beste</p>
+            <article class="kategorier">
+                <h5>Category 1</h5>
+            </article>
+            <article class="kategorier">
+                <h5>Category 2</h5>
+            </article>
+            <article class="kategorier" >
+                <h5>Category 3</h5>
+            </article>
+            <article class="kategorier">
+                <h5>Category 4</h5>
+            </article>
+            <article class="kategorier">
+                <h5>Category 5</h5>
+            </article>
+        </section>
+        <section>
+            <h3>Anmeldelser</h3>
+            <article class="anmeldelser">
+                <img src="img/Sushi.jpg" alt="Sushi">  <!-- *img from - <a href="https://www.pexels.com/nb-no/bilde/2098085/"></a> --> 
+                <h5>Frida Anneli</h5>
+                <p>Vestibulum dictum dolor sed sodales malesuada. Maecenas vulputate nibh purus, sed convallis dolor consequat ac. Donec condimentum suscipit est, in vehicula ex efficitur finibus. Quisque lobortis vel felis vel blandit. Suspendisse fermentum nec nibh vel egestas. Donec semper.</p>
+            </article>
+            <article class="anmeldelser">
+                <img src="img/Sushi.jpg" alt="Sushi">  <!-- *img from - <a href="https://www.pexels.com/nb-no/bilde/2098085/"></a> --> 
+                <h5>Frida Anneli</h5>
+                <p>Vestibulum dictum dolor sed sodales malesuada. Maecenas vulputate nibh purus, sed convallis dolor consequat ac. Donec condimentum suscipit est, in vehicula ex efficitur finibus. Quisque lobortis vel felis vel blandit. Suspendisse fermentum nec nibh vel egestas. Donec semper.</p>
+            </article>
+            <article class="anmeldelser">
+                <img src="img/Sushi.jpg" alt="Sushi">  <!-- *img from - <a href="https://www.pexels.com/nb-no/bilde/2098085/"></a> --> 
+                <h5>Frida Anneli</h5>
+                <p>Vestibulum dictum dolor sed sodales malesuada. Maecenas vulputate nibh purus, sed convallis dolor consequat ac. Donec condimentum suscipit est, in vehicula ex efficitur finibus. Quisque lobortis vel felis vel blandit. Suspendisse fermentum nec nibh vel egestas. Donec semper.</p>
+            </article>
+            <article class="anmeldelser">
+                <img src="img/Sushi.jpg" alt="Sushi">  <!-- *img from - <a href="https://www.pexels.com/nb-no/bilde/2098085/"></a> --> 
+                <h5>Frida Anneli</h5>
+                <p>Vestibulum dictum dolor sed sodales malesuada. Maecenas vulputate nibh purus, sed convallis dolor consequat ac. Donec condimentum suscipit est, in vehicula ex efficitur finibus. Quisque lobortis vel felis vel blandit. Suspendisse fermentum nec nibh vel egestas. Donec semper.</p>
+            </article>
+        </section>
     </main>
     <footer>
         <section>
-            <a href="index.html" id="footer-logo">Logo</a>
-            <p></p>
+            <h3><a href="index.html" id="footer-logo">Logo</a></h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
         </section>
-        <section>
-            <h3>Kontakt</h3>
+        <section id="kontakter">
+            <h4 id="kon">KONTAKT</h4>
             <ul>
-                <li><i class="fa-solid fa-location-dot"></i> Adresse: </li>
-                <li><i class="fa-solid fa-phone"></i> Telefonnummer:</li>
-                <li><i class="fa-solid fa-envelope"></i> E-post:</li>
-                <li><i class="fa-solid fa-clock"></i> Åpningstider:</li>
+                <li><i class="fa-solid fa-location-dot"></i> Adresse: B R A veien 4, 1757 Halden</li>
+                <li><i class="fa-solid fa-phone"></i> Telefonnummer: 69 60 80 00</li>
+                <li><i class="fa-solid fa-envelope"></i> E-post: postmottak@hiof.no</li>
+                <li><i class="fa-solid fa-clock"></i> Åpningstider: Stenger 15:00</li>
             </ul>
         </section>
         <section>
-            <h3>Snarveier</h3>
+            <h4>SNARVEIER</h4>
             <ul>
-                <li><a href="#">Produkter</a></li>
-                <li><a href="#">Kategorier</a></li>
-                <li><a href="#">Kontakt oss</a></li>
+                <li><a href="index.html#prod">Produkter</a></li>
+                <li><a href="index.html#kat">Kategorier</a></li>
+                <li><a href="index.html#kon">Kontakt oss</a></li>
             </ul>
         </section>
         <section>
-            <h3>Sosiale medier</h3>
+            <h4>SOSIALE MEDIER</h4>
             <ul id="some">
                 <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></a></i></li>
                 <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
@@ -67,3 +174,5 @@
     </footer>
 </body>
 </html>
+
+<!-- Linkes til forkjellige steder i dokumentet *https://stackoverflow.com/questions/15481911/linking-to-a-specific-part-of-a-web-page#:~:text=Just%20append%20a%20%23%20followed%20by%20the%20ID,HTML%3A%20You%20could%20use%20the%20link%20%3Ca%20href%3D%22http%3A%2F%2Furl.to.site%2Findex.html%23target%22%3ELink%3C%2Fa%3E. -->
