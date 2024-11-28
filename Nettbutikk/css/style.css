@@ -1,3 +1,162 @@
-header nav ul{
+/*MOBIL*/
+@media only screen and (max-width: 800px) {}
+
+* {
+    text-decoration: none;
     list-style: none;
+    max-width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    float: left;
+    width: 15%;
+    padding: 0.5rem;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-left: none;
+}
+
+#search {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-color: #000000;
+    font-size: 15px;
+    border: 1.5px solid rgb(0, 0, 0);
+    float: left;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+#global-header{
+    display: list-item;
+}
+
+#global-header ul {
+    padding-left: 0%;
+    max-width: 100px;
+}
+
+#global-header ul li {
+    margin-top: 1rem;
+}
+
+a {
+    color: #000000;
+}
+
+h3 {
+    padding-top: 1rem;
+}
+
+article h4{
+    max-width: 85px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: small;
+    text-align: left;
+    border-radius: 1px;
+    float: left;
+    display: inline;
+    margin-inline: 0.5rem;
+}
+
+section p{
+    font-size: small;
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 304px;
+    
+}
+
+.product-card h3 {
+    margin: 0%;
+    padding-top: 0.5rem;
+}
+
+.product-card p {
+    padding-bottom: 1rem;
+}
+
+.kategorier {
+    max-width: 304px;
+    text-align: center;
+    display: list-item;
+    margin-top: 2rem;
+    padding: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.anmeldelser {
+    max-width: 304px;
+    text-align: left;
+    display: list-item;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 0.5px solid rgb(0, 0, 0);
+}
+
+.anmeldelser img {
+    max-width: 150px;
+    max-height: 70px;
+}
+
+.anmeldelser h5 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.anmeldelser p {
+    font-size: 12px;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 2rem;
+}
+
+footer ul {
+    padding-left: 0rem;
+}
+
+footer h4 {
+    margin-bottom: 0.5rem;
+}
+
+footer li {
+    padding-bottom: 0.5rem;
+    font-size: smaller;
+}
+
+#some li {
+    padding-bottom: 2rem;
+    font-size: medium;
+}
+
+.btn{
+    padding: 0.5rem; 
+    border: 1px solid #000000; 
+    color: #000000; 
+    text-decoration: none; 
+    font-size: smaller;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#pakke{
+    background-color: #c5c3c3; 
+    padding: 2rem; 
+    max-height: 250px;
+    text-align: right;
+}
+
+#pakke p{
+    font-size: medium;
 }
