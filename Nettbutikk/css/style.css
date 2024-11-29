@@ -12,7 +12,7 @@ button {
     padding: 0.5rem;
     font-size: 15px;
     color: rgb(0, 0, 0);
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0); /* Code inspired from - <a href="https://www.w3schools.com/css/css_border.asp"></a>*/
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     border-left: none;
@@ -136,9 +136,14 @@ section p{
     font-size: 12px;
 }
 
+footer h3 {
+    font-size: x-large;
+    margin-bottom: 0.5rem;
+}
+
 footer {
     border-top: 1px solid black;
-    margin-top: 2rem;
+    margin-top: 7rem;
 }
 
 footer ul {
@@ -214,3 +219,146 @@ footer li {
 }
 
 /*CHECKOUT*/
+.fulli h6 {
+    margin: 0rem;
+    font-size: medium;
+}
+
+.fulli img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.fulli p {
+    margin: 0rem;
+    font-size: small;
+}
+
+#ksize {
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#ensize {
+    margin-bottom: 0%;
+}
+
+.boxes {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    display: list-item;
+    padding: 0.5rem;
+    max-width: 100%;
+    color: #8a8a8a;
+    margin-bottom: 10px;
+}
+
+#closer {
+    margin-bottom: 0%;
+    font-size: small;
+}
+
+#abutton {
+    float: left;
+    width: 15%;
+    padding: 0.5rem;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-left: none;
+}
+
+#btnl {
+   display: list-item;
+   background-color: #000;
+   color: #ffffff;
+   border: 2px solid #4f4f4f;
+   margin-bottom: 1rem;
+   padding: 1rem;
+   margin-top: 2rem;
+}
+
+#btna {
+    display: list-item;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 1rem;
+}
+
+.checkbox {
+    width: 100%;
+}
+.checkbox p{
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.checkbox label{
+    width: 20em;
+    float: left;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.lastbox {
+    display: list-item;
+    background-color: #ffffff;
+    color: #616161;
+    border: 1px solid #000000;
+    margin-bottom: 0rem;
+    padding: 1rem;
+    margin-top: 0rem;
+    max-width: 100%;
+}
+
+#lastbtn {
+    display: list-item;
+    background-color: #000;
+    color: #ffffff;
+    border: 2px solid #4f4f4f;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#far {
+    margin-top: 7rem;
+    margin-bottom: 0%;
+}
+
+.twocheck {
+    width: 100px;
+}
+
+.twocheck label {
+    width: 20em;
+    font-size: medium;
+    float: left;
+    margin-bottom: 0.5rem;
+    font-size: medium;
+}
+
+#close {
+    font-size: medium;
+    margin-bottom: 0%;
+    margin-top: 1rem;
+}
+
+.hseks {
+    font-size: small;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#tiny {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
